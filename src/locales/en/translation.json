@@ -1,0 +1,128 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "projects": "Previous Work",
+  "contact": "Contact",
+  "view": "View Project",
+  "all": "All",
+  "totalProjects": "View All Works",
+  "workDesc": "Browse a collection of completed work",
+  "works": "My Works",
+  "stands": "Stands",
+  "house": "Home Design",
+  "slider": {
+    "slide1": {
+      "title1": "Shopfronts with ",
+      "title2": "Internal Lighting",
+      "btn1": "See Our Work",
+      "btn2": "Learn more",
+      "description": "We design signs that showcase your brand with elegance and impact"
+    },
+    "slide2": {
+      "title1": "3D Illuminated ",
+      "title2": "Letters",
+      "btn1": "See Our Work",
+      "btn2": "Learn more",
+      "description": "Professional 3D letter design with distinctive LED lighting"
+    },
+    "slide3": {
+      "title1": "Architectural ",
+      "title2": "Facade Lighting",
+      "btn1": "See Our Work",
+      "btn2": "Learn more",
+      "description": "Highlight your architectural facade with the latest lighting technologies"
+    }
+  },
+  "services": {
+    "title": "Services",
+    "shopSigns": {
+      "title": "Shopfronts & Signs",
+      "description": "We design and install attractive storefronts and distinctive signs that attract customers and highlight your brand."
+    },
+    "lightLetters": {
+      "title": "Illuminated Letters",
+      "description": "We offer professional 3D illuminated letters using the latest lighting technologies to showcase your business name."
+    },
+    "facadeDesign": {
+      "title": "Architectural Facades",
+      "description": "We design modern facades that align with your project identity and reflect its unique character."
+    },
+    "interiorPanels": {
+      "title": "Interior Decorative Panels",
+      "description": "Stylish decorative panels that enhance your interior design and add a unique visual touch."
+    },
+    "homes": {
+      "title": "Home Facade Design",
+      "description": "We create unique house facades with modern or classic styles, tailored to your preferences."
+    },
+    "stands": {
+      "title": "Promotional Stands",
+      "description": "Custom-designed stands ideal for exhibitions and shops to professionally display your products."
+    }
+  },
+  "aboutSection": {
+    "title": "Creativity .. Ideas .. Design",
+    "paragraph1": "What sets us apart is our understanding of the client's needs and our commitment to providing innovative solutions that help them stand out and grow.",
+    "paragraph2": "We don’t just create designs — we build storefronts that represent you and strengthen your project's presence.",
+    "paragraph3": "That’s why top companies rely on us to implement their facades and promote their projects in creative and professional ways."
+  },
+  "clientsSection": {
+    "title": "Our Trusted Clients",
+    "description": "Leading brands in Egypt rely on us for creative storefront and facade design."
+  },
+  "contactSection": {
+    "title": "Contact Us",
+    "description": "Need a professional storefront design? Click the button and start chatting with us directly on WhatsApp!",
+    "button": "Contact via WhatsApp",
+    "message": "Hello! I'm interested in your storefront design services and would love to get started 👋"
+  },
+  "footer": {
+    "copyright": "© 2025 Eng.Taha Mohammed Design. All rights reserved.",
+    "developed": "Developed by Eng.Youssef Magdy"
+  },
+  "projectsPageDesc": "Explore a selection of outstanding projects we have completed for our clients, with the option to filter by the type of project you are looking for.",
+  "project": {
+    "notFound": "Project not found ❌",
+    "loading": "Loading...",
+    "title": "Project Details :",
+    "projectAbout": "About the Project:",
+    "projectServices": "Used Services:",
+    "close": "Close",
+    "zoom": "Zoom",
+    "imagesCounter": "{{current}} of {{total}}",
+    "details": "Project Details",
+    "materials": "Materials Used :",
+    "services": "Services Provided :"
+  },
+  "buttons": {
+    "back": "Back",
+    "next": "Next",
+    "viewMore": "View More"
+  },
+  "beforeProjectTitle" : "Before Implementation",
+  "afterProjectTitle" : "After Implementation",
+  "relatedProjects" : "Related Projects",
+   "title": "Did you like this project?",
+  "description": "If you want a similar project or have a unique idea, contact me now and let’s make it happen together.",
+  "contactBtn": "Contact Me",
+  "whatsappBtn": "WhatsApp",
+  "aboutPage": {
+    "pageTitle": "About Us",
+    "introTitle": "Who We Are",
+    "introDesc": "I’m Taha Mohamed, a signage and branding specialist with over 15 years of experience in creating unique, customized solutions for businesses. My mission is to help brands stand out with designs that are both functional and visually striking.",
+    "whyChooseUsTitle": "Why Choose Us?",
+    "whyChooseUsList": [
+      "Over 15 years of experience in signage and branding",
+      "Customized solutions tailored to your business needs",
+      "Commitment to quality and attention to detail",
+      "Creative designs that reflect your brand identity",
+      "Professional execution with durable materials"
+    ],
+    "achievementsTitle": "Our Achievements",
+    "achievementsDesc": "Throughout the years, we’ve successfully completed hundreds of projects across different industries, earning the trust of major brands and local businesses.",
+    "ctaTitle": "Want a Project Like This?",
+    "ctaDesc": "Let’s work together to bring your vision to life. Contact us now!",
+    "ctaButton": "Contact Us"
+  }
+
+}

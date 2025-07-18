@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  font-family: Outfit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+html{
+  scroll-behavior: smooth;
+}
+html[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="ltr"] body {
+  direction: ltr;
+  text-align: left;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE */
+  scrollbar-width: none; /* Firefox */
+  transition: .5s ease-in-out;
+}
+:root {
+  /* Tailwind Gray Scale */
+  --gray-50:   #f9fafb;
+  --gray-100:  #f3f4f6;
+  --gray-200:  #e5e7eb;
+  --gray-300:  #d1d5db;
+  --gray-400:  #9ca3af;
+  --gray-500:  #6b7280;
+  --gray-600:  #4b5563;
+  --gray-700:  #374151;
+  --gray-800:  #1f2937;
+  --gray-900:  #111827;
+  --gray-950:  #030712;
+  /* Tailwind blue Scale */
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-300: #93c5fd;
+  --blue-400: #60a5fa;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
+  --blue-950: #172554;
+
+}
+body {
+  background-color: var(--gray-50) !important;
+  color: var(--gray-900) !important;
+}
+
+.dark body {
+  background-color: var(--gray-900) !important;
+  color: var(--gray-100) !important;
+}
+
+.dark .card {
+  background-color: var(--gray-800) !important;
+  border-color: var(--gray-600) !important;
+  color: var(--gray-300) !important;
+}
+h2{
+  word-spacing: 5px;
+}
+p , button{
+  word-spacing: 3px;
+}
+button , a{
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+.container{
+  width: 85% !important;
+  margin: auto;
+}
+.resactive{
+  background-color: var(--gray-100);
+}
+
+
+.slider-img{
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+#contact{
+  scroll-margin-top: 80px !important;
+}
+.lasted-work button:hover , footer a:hover , .active{
+  background-color:#222;
+  color: #fff !important;
+}
+.aboutPage{
+  padding-top: 70px !important;
+}
+/* dark mode */
+/* header */
+.dark , .dark header , .dark aside , .dark .ideaSection , .dark .contact , .dark .loading , .dark .loader{
+    background-color: var(--gray-900) !important;
+    color: #fff !important;
+}
+.dark header nav ul li:hover {
+  color: var(--gray-100) !important;
+}
+.dark .sidebar nav ul li:hover {
+  background-color: var(--gray-700) !important;
+}
+.dark a , .dark button , .dark .project-name{
+  color: #fff !important;
+}
+.dark h3 , .dark h4{
+  color: var(--gray-200) !important;
+}
+.dark .servies p ,.dark .someWorks p{
+  color: var(--gray-300) !important;
+}
+.dark .resactive{
+  background-color: var(--gray-700) !important;
+  font-weight: 500;
+}
+.dark .btn-lang{
+  background-color: var(--gray-700) !important;
+  color: #fff !important;
+}
+.dark .btn-lang:hover ,.dark .lasted-work button:hover , .dark .active{
+  background-color: var(--gray-700) !important;
+}
+.dark .dropdown{
+  background-color: var(--gray-900) !important;
+  color: #fff !important;
+  border: 1px solid var(--gray-700) !important;
+}
+.dark .dropdown div:hover{
+  background-color: var(--gray-700) !important;
+}
+.dark .ideaSection h2 , .dark .contact h2 {
+  color: #fff !important;
+}
+.dark .ideaSection p ,.dark .contact p ,.dark .someClients p , .dark .project-nav , .dark .project-desc
+, .dark .service ,.dark .lasted-work p {
+  color: var(--gray-300) !important;
+}
+.dark .project-details{
+  color: var(--gray-200) !important;
+}
+.dark .slider{
+  background-color: #fff !important;
+}
+.dark .cta{
+  background-color: #333 !important;
+}
+.dark .cta .pd-contact-btn{
+  background-color: #555 !important;
+}
+.dark .aboutPage{
+  background-color: var(--gray-900) !important;
+  color: var(--gray-200) !important;
+}
+.dark .aboutPage-desc{
+  color: var(--gray-400) !important;
+}
+
+.dark .Achievements{
+  background-color: var(--blue-950) !important;
+}
+.dark .achievementsDesc , .dark .about-cta{
+  color: var(--gray-300);
+}
+@media(max-width:767px){
+  footer{
+    position: relative;
+    padding: 5px 0 !important;
+  }
+  footer p{
+    margin-top: 5px !important;
+    width: 90%;
+    margin: auto;
+    text-align: center !important;
+  }
+  .footer-logo{
+    position: absolute;
+    top:2.5%;
+    /* left: 7% */
+  }
+  .footer-links{
+    width: 85% ;
+    padding:5px 0 !important;
+  }
+}
+@media(max-width:567px){
+  .container{
+    width: 90% !important;
+  }
+  section{
+    padding: 40px 0 !important;
+  }
+  
+}
