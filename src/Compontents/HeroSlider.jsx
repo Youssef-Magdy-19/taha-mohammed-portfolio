@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useTranslation } from "react-i18next"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 // @ts-ignore
-import Koshary from "../images/stores/كشري الخديوي/Koshary5.JPG"
+import Koshary from '../images/stores/Koshary-alkhediw/Koshary5.JPG'
 // @ts-ignore
-import char from "../images/Charcaters/chars light/char8.JPG"
+import char from '../images/Charcaters/chars-light/char8.JPG'
 // @ts-ignore
-import villa from "../images/houses/villa/villa1.jpg"
+import villa from '../images/houses/villa/villa1.jpg'
 import { useNavigate } from "react-router-dom"
 
 const slides = [
