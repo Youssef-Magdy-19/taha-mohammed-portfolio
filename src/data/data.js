@@ -82,10 +82,10 @@ import beforehappy2 from '../images/stores/Happy-Joes/beforehappy2.jpg'
 import beforehappy3 from '../images/stores/Happy-Joes/beforehappy3.jpg'
 
 // Samaka 
-import Samaka1 from '../images/stores/Samaka-coffee/Samaka1.JPG'
-import Samaka2 from '../images/stores/Samaka-coffee/Samaka2.JPG'
-import Samaka3 from '../images/stores/Samaka-coffee/Samaka3.JPG'
-import Samaka4 from '../images/stores/Samaka-coffee/Samaka4.JPG'
+import Samaka1 from '../images/stores/Samaka-coffee/samaka1.JPG'
+import Samaka2 from '../images/stores/Samaka-coffee/samaka2.JPG'
+import Samaka3 from '../images/stores/Samaka-coffee/samaka3.JPG'
+import Samaka4 from '../images/stores/Samaka-coffee/samaka4.JPG'
 
 // Marsillia beach
 import beach1 from '../images/stores/Marsillia-beach/beach1.JPG'
