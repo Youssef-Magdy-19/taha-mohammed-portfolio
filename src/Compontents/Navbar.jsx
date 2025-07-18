@@ -1,8 +1,8 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 // @ts-ignore
-import logoLight from '../images/taha-logo.png'
+import logoLight from '/images/taha-logo.png'
 // @ts-ignore
-import logoDark from '../images/Taha-white.png'
+import logoDark from '/images/Taha-white.png'
 import { Link, useLocation } from 'react-router-dom'
 // @ts-ignore
 import { Moon, Sun, Menu, X } from 'lucide-react'

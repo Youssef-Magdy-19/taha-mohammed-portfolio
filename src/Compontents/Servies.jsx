@@ -2,25 +2,25 @@
 // @ts-ignore
 import React, { useEffect, useState } from 'react'
 // @ts-ignore
-import stand from '../images/iconStandd.png'
+import stand from '/images/iconStandd.png'
 // @ts-ignore
-import standdark from '../images/image.png'
+import standdark from '/images/image.png'
 // @ts-ignore
-import panel from '../images/icon4.png'
+import panel from '/images/icon4.png'
 // @ts-ignore
-import paneldark from '../images/icon4-dark.png'
+import paneldark from '/images/icon4-dark.png'
 // @ts-ignore
-import letter from '../images/3d.png'
+import letter from '/images/3d.png'
 // @ts-ignore
-import letterdark from '../images/letter-dark.png'
+import letterdark from '/images/letter-dark.png'
 // @ts-ignore
-import home from '../images/home.png'
+import home from '/images/home.png'
 // @ts-ignore
-import homedark from '../images/home-dark.png'
+import homedark from '/images/home-dark.png'
 // @ts-ignore
-import shop from '../images/shop.png'
+import shop from '/images/shop.png'
 // @ts-ignore
-import shopDark from '../images/shop-dark.png'
+import shopDark from '/images/shop-dark.png'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 

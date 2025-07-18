@@ -1,189 +1,184 @@
-
-// --------------------------------------------  shops  -----------------------------------------------
+// ----------------------------- Shops -----------------------------
 
 // Koshary Al-Khedewy
-import Koshary1 from '../images/stores/Koshary-alkhediw/Koshary1.png'
-import Koshary2 from "../images/stores/Koshary-alkhediw/Koshary2.PNG"
-import Koshary3 from '../images/stores/Koshary-alkhediw/Koshary3.png'
-import Koshary4 from '../images/stores/Koshary-alkhediw/Koshary4.JPG'
-import Koshary5 from '../images/stores/Koshary-alkhediw/Koshary5.JPG'
-import Koshary6 from '../images/stores/Koshary-alkhediw/Koshary6.jpg'
-import Koshary7 from '../images/stores/Koshary-alkhediw/Koshary7.jpg'
-import Koshary8 from '../images/stores/Koshary-alkhediw/Koshary8.png'
-import Koshary9 from '../images/stores/Koshary-alkhediw/tahaKoshary.png'
-import beforeKoshary1 from '../images/stores/Koshary-alkhediw/beforeKoshary1.JPG'
-import beforeKoshary2 from '../images/stores/Koshary-alkhediw/beforeKoshary2.JPG'
+const Koshary1 = "/images/stores/Koshary-alkhediw/Koshary1.png";
+const Koshary2 = "/images/stores/Koshary-alkhediw/Koshary2.png";
+const Koshary3 = "/images/stores/Koshary-alkhediw/Koshary3.png";
+const Koshary4 = "/images/stores/Koshary-alkhediw/Koshary4.jpg";
+const Koshary5 = "/images/stores/Koshary-alkhediw/Koshary5.jpg";
+const Koshary6 = "/images/stores/Koshary-alkhediw/Koshary6.jpg";
+const Koshary7 = "/images/stores/Koshary-alkhediw/Koshary7.jpg";
+const Koshary8 = "/images/stores/Koshary-alkhediw/Koshary8.png";
+const Koshary9 = "/images/stores/Koshary-alkhediw/tahaKoshary.png";
+const beforeKoshary1 = "/images/stores/Koshary-alkhediw/beforeKoshary1.jpg";
+const beforeKoshary2 = "/images/stores/Koshary-alkhediw/beforeKoshary2.jpg";
 
-// kids
-import Kids1 from "../images/stores/Kids/Kids1.JPG"
-import Kids2 from "../images/stores/Kids/Kids2.JPG"
-import Kids3 from "../images/stores/Kids/Kids3.JPG"
-import beforeKids1 from "../images/stores/Kids/beforeKids1.jpg"
-import beforeKids2 from "../images/stores/Kids/beforeKids2.jpg"
-import beforeKids3 from "../images/stores/Kids/beforeKids3.jpg"
-import beforeKids4 from "../images/stores/Kids/beforeKids4.jpg"
-import beforeKids5 from "../images/stores/Kids/beforeKids5.jpg"
-import beforeKids6 from "../images/stores/Kids/beforeKids6.PNG"
-import beforeKids7 from "../images/stores/Kids/beforeKids7.JPG"
-import beforeKids8 from "../images/stores/Kids/beforeKids8.JPG"
+// Kids
+const Kids1 = "/images/stores/Kids/Kids1.jpg";
+const Kids2 = "/images/stores/Kids/Kids2.jpg";
+const Kids3 = "/images/stores/Kids/Kids3.png";
+const beforeKids1 = "/images/stores/Kids/beforeKids1.jpg";
+const beforeKids2 = "/images/stores/Kids/beforeKids2.jpg";
+const beforeKids3 = "/images/stores/Kids/beforeKids3.jpg";
+const beforeKids4 = "/images/stores/Kids/beforeKids4.jpg";
+const beforeKids5 = "/images/stores/Kids/beforeKids5.jpg";
+const beforeKids6 = "/images/stores/Kids/beforeKids6.png";
+const beforeKids7 = "/images/stores/Kids/beforeKids7.jpg";
+const beforeKids8 = "/images/stores/Kids/beforeKids8.jpg";
 
-// العربي
-import Arabi1 from "../images/stores/Al-Arabi/Al-Arabi1.jpg"
-import Arabi2 from "../images/stores/Al-Arabi/Al-Arabi2.jpg"
-import Arabi3 from "../images/stores/Al-Arabi/Al-Arabi3.png"
-import Arabi4 from "../images/stores/Al-Arabi/Al-Arabi4.png"
-import Arabi5 from "../images/stores/Al-Arabi/Al-Arabi5.png"
+// Al-Arabi
+const Arabi1 = "/images/stores/Al-Arabi/Al-Arabi1.jpg";
+const Arabi2 = "/images/stores/Al-Arabi/Al-Arabi2.jpg";
+const Arabi3 = "/images/stores/Al-Arabi/Al-Arabi3.png";
+const Arabi4 = "/images/stores/Al-Arabi/Al-Arabi4.png";
+const Arabi5 = "/images/stores/Al-Arabi/Al-Arabi5.png";
 
 // Bazid Pharmacy
-import Bazid1 from '../images/stores/Bazid-Pharmacy/Bazid1.JPG'
-import Bazid2 from '../images/stores/Bazid-Pharmacy/Bazid2.JPG'
-import Bazid3 from '../images/stores/Bazid-Pharmacy/Bazid3.JPG'
-import Bazid4 from '../images/stores/Bazid-Pharmacy/Bazid4.JPG'
-import Bazid5 from '../images/stores/Bazid-Pharmacy/Bazid5.JPG'
+const Bazid1 = "/images/stores/Bazid-Pharmacy/Bazid1.jpg";
+const Bazid2 = "/images/stores/Bazid-Pharmacy/Bazid2.jpg";
+const Bazid3 = "/images/stores/Bazid-Pharmacy/Bazid3.jpg";
+const Bazid4 = "/images/stores/Bazid-Pharmacy/Bazid4.jpg";
+const Bazid5 = "/images/stores/Bazid-Pharmacy/Bazid5.jpg";
 
 // Bingo
-import Bingo1 from '../images/stores/Bingo/Bingo1.png'
-import Bingo2 from '../images/stores/Bingo/Bingo2.png'
-import Bingo3 from '../images/stores/Bingo/Bingo3.png'
-import Bingo4 from '../images/stores/Bingo/Bingo4.png'
-import beforeBingo1 from '../images/stores/Bingo/beforeBingo1.jpg'
-import beforeBingo2 from '../images/stores/Bingo/beforeBingo2.jpg'
+const Bingo1 = "/images/stores/Bingo/Bingo1.png";
+const Bingo2 = "/images/stores/Bingo/Bingo2.png";
+const Bingo3 = "/images/stores/Bingo/Bingo3.png";
+const Bingo4 = "/images/stores/Bingo/Bingo4.png";
+const beforeBingo1 = "/images/stores/Bingo/beforeBingo1.jpg";
+const beforeBingo2 = "/images/stores/Bingo/beforeBingo2.jpg";
 
 // Dawlya
-import Dawlya1 from '../images/stores/Dawlya/Dawlya1.jpg'
-import Dawlya2 from '../images/stores/Dawlya/Dawlya2.png'
-import Dawlya3 from '../images/stores/Dawlya/Dawlya3.png'
-import Dawlya4 from '../images/stores/Dawlya/Dawlya4.png'
-import Dawlya5 from '../images/stores/Dawlya/Dawlya5.png'
-import Dawlya6 from '../images/stores/Dawlya/Dawlya6.png'
-import Dawlya7 from '../images/stores/Dawlya/Dawlya7.png'
-import Dawlya8 from '../images/stores/Dawlya/Dawlya8.png'
-import Dawlya9 from '../images/stores/Dawlya/Dawlya9.png'
+const Dawlya1 = "/images/stores/Dawlya/Dawlya1.jpg";
+const Dawlya2 = "/images/stores/Dawlya/Dawlya2.png";
+const Dawlya3 = "/images/stores/Dawlya/Dawlya3.png";
+const Dawlya4 = "/images/stores/Dawlya/Dawlya4.png";
+const Dawlya5 = "/images/stores/Dawlya/Dawlya5.png";
+const Dawlya6 = "/images/stores/Dawlya/Dawlya6.png";
+const Dawlya7 = "/images/stores/Dawlya/Dawlya7.png";
+const Dawlya8 = "/images/stores/Dawlya/Dawlya8.png";
+const Dawlya9 = "/images/stores/Dawlya/Dawlya9.png";
 
-// Falafels's Xpress
-import xpress1 from '../images/stores/Falafels-Xpress/xpress1.jpg'
-import xpress2 from '../images/stores/Falafels-Xpress/xpress2.png'
-import xpress3 from '../images/stores/Falafels-Xpress/xpress3.png'
+// Falafels-Xpress
+const xpress1 = "/images/stores/Falafels-Xpress/xpress1.jpg";
+const xpress2 = "/images/stores/Falafels-Xpress/xpress2.png";
+const xpress3 = "/images/stores/Falafels-Xpress/xpress3.png";
 
-// Happy Joe's
-import happy1 from '../images/stores/Happy-Joes/happy1.jpg'
-import happy2 from '../images/stores/Happy-Joes/happy2.jpg'
-import happy3 from '../images/stores/Happy-Joes/happy3.jpg'
-import happy4 from '../images/stores/Happy-Joes/happy4.jpg'
-import happy5 from '../images/stores/Happy-Joes/happy5.jpg'
-import happy6 from '../images/stores/Happy-Joes/happy6.png'
-import happy7 from '../images/stores/Happy-Joes/happy7.png'
-import happy8 from '../images/stores/Happy-Joes/happy8.png'
-import happy9 from '../images/stores/Happy-Joes/happy9.png'
-import happy10 from '../images/stores/Happy-Joes/happy10.png'
-import happy11 from '../images/stores/Happy-Joes/happy11.png'
-import beforehappy1 from '../images/stores/Happy-Joes/beforehappy1.jpg'
-import beforehappy2 from '../images/stores/Happy-Joes/beforehappy2.jpg'
-import beforehappy3 from '../images/stores/Happy-Joes/beforehappy3.jpg'
+// Happy-Joes
+const happy1 = "/images/stores/Happy-Joes/happy1.jpg";
+const happy2 = "/images/stores/Happy-Joes/happy2.jpg";
+const happy3 = "/images/stores/Happy-Joes/happy3.jpg";
+const happy4 = "/images/stores/Happy-Joes/happy4.jpg";
+const happy5 = "/images/stores/Happy-Joes/happy5.jpg";
+const happy6 = "/images/stores/Happy-Joes/happy6.png";
+const happy7 = "/images/stores/Happy-Joes/happy7.png";
+const happy8 = "/images/stores/Happy-Joes/happy8.png";
+const happy9 = "/images/stores/Happy-Joes/happy9.png";
+const happy10 = "/images/stores/Happy-Joes/happy10.png";
+const happy11 = "/images/stores/Happy-Joes/happy11.png";
+const beforehappy1 = "/images/stores/Happy-Joes/beforehappy1.jpg";
+const beforehappy2 = "/images/stores/Happy-Joes/beforehappy2.jpg";
+const beforehappy3 = "/images/stores/Happy-Joes/beforehappy3.jpg";
 
-// Samaka 
-import Samaka1 from '../images/stores/Samaka-coffee/samaka1.JPG'
-import Samaka2 from '../images/stores/Samaka-coffee/samaka2.JPG'
-import Samaka3 from '../images/stores/Samaka-coffee/samaka3.JPG'
-import Samaka4 from '../images/stores/Samaka-coffee/samaka4.JPG'
+// Samaka
+const Samaka1 = "/images/stores/Samaka-coffee/samaka1.jpg";
+const Samaka2 = "/images/stores/Samaka-coffee/samaka2.jpg";
+const Samaka3 = "/images/stores/Samaka-coffee/samaka3.jpg";
+const Samaka4 = "/images/stores/Samaka-coffee/samaka4.jpg";
 
-// Marsillia beach
-import beach1 from '../images/stores/Marsillia-beach/beach1.JPG'
-import beach2 from '../images/stores/Marsillia-beach/beach2.JPG'
+// Marsillia Beach
+const beach1 = "/images/stores/Marsillia-beach/beach1.jpg";
+const beach2 = "/images/stores/Marsillia-beach/beach2.jpg";
 
 // Nevin Pharmacy
-import nevin1 from '../images/stores/Nevin-Pharmacy/nevin1.JPG'
-import nevin2 from '../images/stores/Nevin-Pharmacy/nevin2.JPG'
-import nevin3 from '../images/stores/Nevin-Pharmacy/nevin3.JPG'
-import nevin4 from '../images/stores/Nevin-Pharmacy/nevin4.JPG'
+const nevin1 = "/images/stores/Nevin-Pharmacy/nevin1.jpg";
+const nevin2 = "/images/stores/Nevin-Pharmacy/nevin2.jpg";
+const nevin3 = "/images/stores/Nevin-Pharmacy/nevin3.jpg";
+const nevin4 = "/images/stores/Nevin-Pharmacy/nevin4.jpg";
 
-// Hassan Ali Glases
-import ali1 from '../images/stores/Hassan-Ali-Glases/ali1.JPG'
-import ali2 from '../images/stores/Hassan-Ali-Glases/ali2.jpg'
-import ali3 from '../images/stores/Hassan-Ali-Glases/ali3.jpg'
-import ali4 from '../images/stores/Hassan-Ali-Glases/ali4.jpg'
-import ali5 from '../images/stores/Hassan-Ali-Glases/ali5.jpg'
-import ali6 from '../images/stores/Hassan-Ali-Glases/ali6.jpg'
-import ali7 from '../images/stores/Hassan-Ali-Glases/ali7.JPG'
-import ali8 from '../images/stores/Hassan-Ali-Glases/ali8.jpg'
-import ali9 from '../images/stores/Hassan-Ali-Glases/ali9.JPG'
-import beforehassan1 from '../images/stores/Hassan-Ali-Glases/beforehassan1.JPG'
-import beforehassan2 from '../images/stores/Hassan-Ali-Glases/beforehassan2.JPG'
-import beforehassan3 from '../images/stores/Hassan-Ali-Glases/beforehassan3.JPG'
-import beforehassan4 from '../images/stores/Hassan-Ali-Glases/beforehassan4.jpg'
-import beforehassan5 from '../images/stores/Hassan-Ali-Glases/beforehassan5.jpg'
-import beforehassan6 from '../images/stores/Hassan-Ali-Glases/beforehassan6.jpg'
+// Hassan Ali Glasses
+const ali1 = "/images/stores/Hassan-Ali-Glases/ali1.jpg";
+const ali2 = "/images/stores/Hassan-Ali-Glases/ali2.jpg";
+const ali3 = "/images/stores/Hassan-Ali-Glases/ali3.jpg";
+const ali4 = "/images/stores/Hassan-Ali-Glases/ali4.jpg";
+const ali5 = "/images/stores/Hassan-Ali-Glases/ali5.jpg";
+const ali6 = "/images/stores/Hassan-Ali-Glases/ali6.jpg";
+const ali7 = "/images/stores/Hassan-Ali-Glases/ali7.jpg";
+const ali8 = "/images/stores/Hassan-Ali-Glases/ali8.jpg";
+const ali9 = "/images/stores/Hassan-Ali-Glases/ali9.jpg";
+const beforehassan1 = "/images/stores/Hassan-Ali-Glases/beforehassan1.jpg";
+const beforehassan2 = "/images/stores/Hassan-Ali-Glases/beforehassan2.jpg";
+const beforehassan3 = "/images/stores/Hassan-Ali-Glases/beforehassan3.jpg";
+const beforehassan4 = "/images/stores/Hassan-Ali-Glases/beforehassan4.jpg";
+const beforehassan5 = "/images/stores/Hassan-Ali-Glases/beforehassan5.jpg";
+const beforehassan6 = "/images/stores/Hassan-Ali-Glases/beforehassan6.jpg";
 
-// stores/some other soters
-import shop1 from '../images/stores/some-other-soters/shop1.jpg'
-import shop2 from '../images/stores/some-other-soters/shop2.jpg'
-import shop3 from '../images/stores/some-other-soters/shop3.JPG'
-import shop4 from '../images/stores/some-other-soters/shop4.JPG'
-import shop5 from '../images/stores/some-other-soters/shop5.png'
-import shop6 from '../images/stores/some-other-soters/shop6.jpg'
-import shop7 from '../images/stores/some-other-soters/shop7.JPG'
-import shop8 from '../images/stores/some-other-soters/shop8.JPG'
+// Some Other Stores
+const shop1 = "/images/stores/some-other-soters/shop1.jpg";
+const shop2 = "/images/stores/some-other-soters/shop2.jpg";
+const shop3 = "/images/stores/some-other-soters/shop3.jpg";
+const shop4 = "/images/stores/some-other-soters/shop4.jpg";
+const shop5 = "/images/stores/some-other-soters/shop5.jpg";
+const shop6 = "/images/stores/some-other-soters/shop6.jpg";
+const shop7 = "/images/stores/some-other-soters/shop7.jpg";
+const shop8 = "/images/stores/some-other-soters/shop8.jpg";
 
-// ----------------------------------------------------  Tbull Stand  -----------------------------------------
+// ----------------------------- Tbull Stand -----------------------------
 
-// basic stand 
-import basicStand1 from '../images/Tbull-Stand/basic-stand/basicStand1.JPG'
-import basicStand2 from '../images/Tbull-Stand/basic-stand/basicStand2.JPG'
-import basicStand3 from '../images/Tbull-Stand/basic-stand/basicStand3.jpg'
-import basicStand4 from '../images/Tbull-Stand/basic-stand/basicStand4.JPG'
-import basicStand5 from '../images/Tbull-Stand/basic-stand/basicStand5.JPG'
+// Basic Stand
+const basicStand1 = "/images/Tbull-Stand/basic-stand/basicStand1.jpg";
+const basicStand2 = "/images/Tbull-Stand/basic-stand/basicStand2.jpg";
+const basicStand3 = "/images/Tbull-Stand/basic-stand/basicStand3.jpg";
+const basicStand4 = "/images/Tbull-Stand/basic-stand/basicStand4.jpg";
+const basicStand5 = "/images/Tbull-Stand/basic-stand/basicStand5.jpg";
 
 // T Stand
-import tStand1 from '../images/Tbull-Stand/tstand/tStand1.JPG'
-import tStand2 from '../images/Tbull-Stand/tstand/tStand2.JPG'
-import tStand3 from '../images/Tbull-Stand/tstand/tStand3.JPG'
-import tStand4 from '../images/Tbull-Stand/tstand/tStand4.jpg'
+const tStand1 = "/images/Tbull-Stand/tstand/tStand1.jpg";
+const tStand2 = "/images/Tbull-Stand/tstand/tStand2.jpg";
+const tStand3 = "/images/Tbull-Stand/tstand/tStand3.jpg";
+const tStand4 = "/images/Tbull-Stand/tstand/tStand4.jpg";
 
-// ----------------------------------------------------  Charcaters light  --------------------------------------
+// ----------------------------- Characters Lighting -----------------------------
 
-// char lighting
-import char1 from '../images/Charcaters/chars-light/char1.JPG'
-import char2 from '../images/Charcaters/chars-light/char2.JPG'
-import char3 from '../images/Charcaters/chars-light/char3.JPG'
-import char4 from '../images/Charcaters/chars-light/char4.jpg'
-import char5 from '../images/Charcaters/chars-light/char5.JPG'
-import char6 from '../images/Charcaters/chars-light/char6.JPG'
-import char7 from '../images/Charcaters/chars-light/char7.PNG'
-import char8 from '../images/Charcaters/chars-light/char8.JPG'
-import char9 from '../images/Charcaters/chars-light/char9.JPG'
-import char10 from '../images/Charcaters/chars-light/char10.JPG'
-import char11 from '../images/Charcaters/chars-light/char11.JPG'
-import char12 from '../images/Charcaters/chars-light/char12.JPG'
-import char13 from '../images/Charcaters/chars-light/char13.jpg'
-import char14 from '../images/Charcaters/chars-light/char14.JPG'
-import char15 from '../images/Charcaters/chars-light/char15.jpg'
+// Chars Lighting
+const char1 = "/images/Charcaters/chars-light/char1.jpg";
+const char2 = "/images/Charcaters/chars-light/char2.jpg";
+const char3 = "/images/Charcaters/chars-light/char3.jpg";
+const char4 = "/images/Charcaters/chars-light/char4.jpg";
+const char5 = "/images/Charcaters/chars-light/char5.jpg";
+const char6 = "/images/Charcaters/chars-light/char6.jpg";
+const char7 = "/images/Charcaters/chars-light/char7.png";
+const char8 = "/images/Charcaters/chars-light/char8.jpg";
+const char9 = "/images/Charcaters/chars-light/char9.jpg";
+const char10 = "/images/Charcaters/chars-light/char10.jpg";
+const char11 = "/images/Charcaters/chars-light/char11.jpg";
+const char12 = "/images/Charcaters/chars-light/char12.jpg";
+const char13 = "/images/Charcaters/chars-light/char13.jpg";
+const char14 = "/images/Charcaters/chars-light/char14.jpg";
+const char15 = "/images/Charcaters/chars-light/char15.jpg";
 
-// word-lighting
-import word1 from '../images/Charcaters/words-light/word1.jpg'
-import word2 from '../images/Charcaters/words-light/word2.JPG'
-import word3 from '../images/Charcaters/words-light/word3.jpg'
-import word4 from '../images/Charcaters/words-light/word4.JPG'
-import word5 from '../images/Charcaters/words-light/word5.JPG'
-import word6 from '../images/Charcaters/words-light/word6.jpg'
+// Words Lighting
+const word1 = "/images/Charcaters/words-light/word1.jpg";
+const word2 = "/images/Charcaters/words-light/word2.jpg";
+const word3 = "/images/Charcaters/words-light/word3.jpg";
+const word4 = "/images/Charcaters/words-light/word4.jpg";
+const word5 = "/images/Charcaters/words-light/word5.jpg";
+const word6 = "/images/Charcaters/words-light/word6.jpg";
+// ----------------------------- Houses -----------------------------
 
-// -----------------------------------------------------  Houses  -----------------------------------------------
+// Apartments
+const apartment1 = "/images/houses/apartment/apartment1.jpg";
+const apartment2 = "/images/houses/apartment/apartment2.jpg";
+const apartment3 = "/images/houses/apartment/apartment3.jpg";
 
-//  apartment
-import apartment1 from '../images/houses/apartment/apartment1.jpg'
-import apartment2 from '../images/houses/apartment/apartment2.JPG'
-import apartment3 from '../images/houses/apartment/apartment3.jpg'
-
-// villa
-import villa1 from '../images/houses/villa/villa1.jpg'
-import villa2 from '../images/houses/villa/villa2.jpg'
-import villa3 from '../images/houses/villa/villa3.jpg'
-import villa4 from '../images/houses/villa/villa4.JPG'
-import villa5 from '../images/houses/villa/villa5.JPG'
-import villa6 from '../images/houses/villa/villa6.JPG'
-import beforeVilla1 from '../images/houses/villa/beforeVilla1.JPG'
-import beforeVilla2 from '../images/houses/villa/beforeVilla2.JPG'
-
-
+// Villas
+const villa1 = "/images/houses/villa/villa1.jpg";
+const villa2 = "/images/houses/villa/villa2.jpg";
+const villa3 = "/images/houses/villa/villa3.jpg";
+const villa4 = "/images/houses/villa/villa4.jpg";
+const villa5 = "/images/houses/villa/villa5.jpg";
+const beforeVilla1 = "/images/houses/villa/beforeVilla1.jpg";
+const beforeVilla2 = "/images/houses/villa/beforeVilla2.jpg";
 
 export const data = [
     {
@@ -195,8 +190,8 @@ export const data = [
             ar: 'كشري الخديوي – من أشهر سلاسل الكشري في مصر، وتم تنفيذ تصميم واجهات الفروع واللافتات المميزة بواسطتي.'
         },
         img: Koshary3,
-        images: [ Koshary1, Koshary2, Koshary3, Koshary4, Koshary5 , Koshary6 , Koshary7 ,Koshary8 , Koshary9] ,
-        beforeImages : [beforeKoshary1 , beforeKoshary2] ,
+        images: [Koshary1, Koshary2, Koshary3, Koshary4, Koshary5, Koshary6, Koshary7, Koshary8, Koshary9],
+        beforeImages: [beforeKoshary1, beforeKoshary2],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Koshary El-Khedewy branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع كشري الخديوي.'
@@ -220,7 +215,7 @@ export const data = [
         },
         img: Kids3,
         images: [Kids1, Kids2, Kids3],
-        beforeImages: [beforeKids1 , beforeKids2 , beforeKids3 ,beforeKids4 , beforeKids5 ,beforeKids6 , beforeKids7 ,beforeKids8],
+        beforeImages: [beforeKids1, beforeKids2, beforeKids3, beforeKids4, beforeKids5, beforeKids6, beforeKids7, beforeKids8],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Kids branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع كيدز.'
@@ -244,8 +239,8 @@ export const data = [
             ar: 'هابي جو – مطعم وجبات سريعة بستايل مميز، وتم تصميم اللافتات والهوية البصرية الخاصة به بواسطتي.'
         },
         img: happy1,
-        images: [happy1, happy2, happy3, happy4, happy5, happy6, happy7, happy8, happy9, happy10 , happy11],
-        beforeImages : [beforehappy1 , beforehappy2 , beforehappy3] ,
+        images: [happy1, happy2, happy3, happy4, happy5, happy6, happy7, happy8, happy9, happy10, happy11],
+        beforeImages: [beforehappy1, beforehappy2, beforehappy3],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Happy Joe’s branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع هابي جوس.'
@@ -270,7 +265,7 @@ export const data = [
         },
         img: Bingo1,
         images: [Bingo1, Bingo2, Bingo3, Bingo4],
-        beforeImages : [beforeBingo1 ,beforeBingo2] ,
+        beforeImages: [beforeBingo1, beforeBingo2],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Bingo branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع بينجو.'
@@ -295,7 +290,7 @@ export const data = [
         },
         img: beach1,
         images: [beach1, beach2],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Marsillia Beach.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة مارسيليا بيتش.'
@@ -320,7 +315,7 @@ export const data = [
         },
         img: Bazid1,
         images: [Bazid1, Bazid2, Bazid3, Bazid4, Bazid5],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Bazid Pharmacy branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع صيدلية بازيد.'
@@ -344,8 +339,8 @@ export const data = [
             ar: 'العربي – من أكبر المستوردين في مدينة المحلة الكبرى، تم تنفيذ لافتاته لتبرز مكانته التجارية بواسطتي.'
         },
         img: Arabi3,
-        images: [Arabi1, Arabi2, Arabi3 , Arabi4 ,Arabi5],
-        beforeImages : [] ,
+        images: [Arabi1, Arabi2, Arabi3, Arabi4, Arabi5],
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for El Araby.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة للعربي.'
@@ -369,7 +364,7 @@ export const data = [
         },
         img: ali1,
         images: [ali1, ali2, ali3, ali4, ali5, ali6, ali7, ali8, ali9],
-        beforeImages : [beforehassan1 , beforehassan2 , beforehassan3 , beforehassan4 , beforehassan5 , beforehassan6] ,
+        beforeImages: [beforehassan1, beforehassan2, beforehassan3, beforehassan4, beforehassan5, beforehassan6],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Hassan Ali branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع حسن علي.'
@@ -394,7 +389,7 @@ export const data = [
         },
         img: xpress2,
         images: [xpress1, xpress2, xpress3],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Falafels Xpress.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة فلافلز إكسبريس.'
@@ -419,7 +414,7 @@ export const data = [
         },
         img: Samaka1,
         images: [Samaka1, Samaka2, Samaka3, Samaka4],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Samaka.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة سماكة.'
@@ -443,8 +438,8 @@ export const data = [
             ar: 'دولية – محل ملابس رجالي، تم تصميم لافتاته بستايل عصري يعكس الذوق والموضة'
         },
         img: Dawlya1,
-        images: [Dawlya1, Dawlya2, Dawlya3, Dawlya4, Dawlya5, Dawlya6, Dawlya7, Dawlya8 , Dawlya9],
-        beforeImages : [] ,
+        images: [Dawlya1, Dawlya2, Dawlya3, Dawlya4, Dawlya5, Dawlya6, Dawlya7, Dawlya8, Dawlya9],
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Dawlya.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لدولية.'
@@ -468,7 +463,7 @@ export const data = [
         },
         img: nevin1,
         images: [nevin1, nevin2, nevin3, nevin4],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Nevin Pharmacy.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة صيدلية نيفين.'
@@ -492,7 +487,7 @@ export const data = [
         },
         img: shop4,
         images: [shop1, shop2, shop3, shop4, shop5, shop6, shop7, shop8],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Other Selected Shops.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة بعض المحلات الاخري.'
@@ -517,7 +512,7 @@ export const data = [
         },
         img: tStand4,
         images: [tStand1, tStand2, tStand3, tStand4],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: "Promotional stands for product display and marketing.",
             ar: 'مواقف ترويجية لعرض المنتجات وتسويقها.'
@@ -541,7 +536,7 @@ export const data = [
         },
         img: basicStand1,
         images: [basicStand1, basicStand2, basicStand3, basicStand4, basicStand5],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: "Promotional stands for product display and marketing.",
             ar: 'مواقف ترويجية لعرض المنتجات وتسويقها.'
@@ -564,8 +559,8 @@ export const data = [
             ar: 'فيلل بتشطيبات راقية وتصميمات فريدة، تجمع بين الفخامة والخصوصية، تم تنفيذها بأعلى جودة'
         },
         img: villa5,
-        images: [villa1, villa2, villa3, villa4, villa5, villa6],
-        beforeImages : [beforeVilla1 , beforeVilla2] ,
+        images: [villa1, villa2, villa3, villa4, villa5],
+        beforeImages: [beforeVilla1, beforeVilla2],
         details: {
             en: "Premium finishing and architectural design.",
             ar: "تشطيب ممتاز وتصميم معماري."
@@ -575,7 +570,7 @@ export const data = [
             ar: ['  دهان عالي الجودة.', ' جرانيت', ' رخام']
         },
         services: {
-            en: ['Interior design', 'Construction','Finishing'],
+            en: ['Interior design', 'Construction', 'Finishing'],
             ar: ['التشطيب', 'البناء', 'البناءالتصميم الداخلي']
         }
     },
@@ -589,7 +584,7 @@ export const data = [
         },
         img: apartment3,
         images: [apartment1, apartment2, apartment3],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: "Premium finishing and architectural design.",
             ar: "تشطيب ممتاز وتصميم معماري."
@@ -599,7 +594,7 @@ export const data = [
             ar: ['  دهان عالي الجودة.', ' جرانيت', ' رخام']
         },
         services: {
-            en: ['Interior design', 'Construction','Finishing'],
+            en: ['Interior design', 'Construction', 'Finishing'],
             ar: ['التشطيب', 'البناء', 'البناءالتصميم الداخلي']
         }
     },
@@ -613,7 +608,7 @@ export const data = [
         },
         img: word5,
         images: [word1, word2, word3, word4, word5, word6],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: "Custom illuminated signage for brand identity.",
             ar: "لافتات مضيئة مخصصة لهوية العلامة التجارية."
@@ -637,7 +632,7 @@ export const data = [
         },
         img: char6,
         images: [char1, char2, char3, char4, char5, char6, char7, char8, char9, char10, char11, char12, char13, char14, char15],
-        beforeImages : [] ,
+        beforeImages: [],
         details: {
             en: "Custom illuminated signage for brand identity.",
             ar: "لافتات مضيئة مخصصة لهوية العلامة التجارية."
