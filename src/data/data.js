@@ -3,7 +3,7 @@
 
 // Koshary Al-Khedewy
 import Koshary1 from '../images/stores/Koshary-alkhediw/Koshary1.png'
-import Koshary2 from '../images/stores/Koshary-alkhediw/Koshary2.png'
+import Koshary2 from "../images/stores/Koshary-alkhediw/Koshary2.PNG"
 import Koshary3 from '../images/stores/Koshary-alkhediw/Koshary3.png'
 import Koshary4 from '../images/stores/Koshary-alkhediw/Koshary4.jpg'
 import Koshary5 from '../images/stores/Koshary-alkhediw/Koshary5.jpg'
