@@ -5,8 +5,8 @@
 import Koshary1 from '../images/stores/Koshary-alkhediw/Koshary1.png'
 import Koshary2 from "../images/stores/Koshary-alkhediw/Koshary2.PNG"
 import Koshary3 from '../images/stores/Koshary-alkhediw/Koshary3.png'
-import Koshary4 from '../images/stores/Koshary-alkhediw/Koshary4.jpg'
-import Koshary5 from '../images/stores/Koshary-alkhediw/Koshary5.jpg'
+import Koshary4 from '../images/stores/Koshary-alkhediw/Koshary4.JPG'
+import Koshary5 from '../images/stores/Koshary-alkhediw/Koshary5.JPG'
 import Koshary6 from '../images/stores/Koshary-alkhediw/Koshary6.jpg'
 import Koshary7 from '../images/stores/Koshary-alkhediw/Koshary7.jpg'
 import Koshary8 from '../images/stores/Koshary-alkhediw/Koshary8.png'
@@ -15,16 +15,17 @@ import beforeKoshary1 from '../images/stores/Koshary-alkhediw/beforeKoshary1.jpg
 import beforeKoshary2 from '../images/stores/Koshary-alkhediw/beforeKoshary2.jpg'
 
 // kids
-import Kids1 from "../images/stores/Kids/Kids1.jpg"
-import Kids2 from "../images/stores/Kids/Kids2.jpg"
-import Kids3 from "../images/stores/Kids/Kids3.jpg"
+import Kids1 from "../images/stores/Kids/Kids1.JPG"
+import Kids2 from "../images/stores/Kids/Kids2.JPG"
+import Kids3 from "../images/stores/Kids/Kids3.JPG"
 import beforeKids1 from "../images/stores/Kids/beforeKids1.jpg"
 import beforeKids2 from "../images/stores/Kids/beforeKids2.jpg"
 import beforeKids3 from "../images/stores/Kids/beforeKids3.jpg"
 import beforeKids4 from "../images/stores/Kids/beforeKids4.jpg"
 import beforeKids5 from "../images/stores/Kids/beforeKids5.jpg"
-import beforeKids6 from "../images/stores/Kids/beforeKids6.png"
-import beforeKids7 from "../images/stores/Kids/beforeKids7.jpg"
+import beforeKids6 from "../images/stores/Kids/beforeKids6.PNG"
+import beforeKids7 from "../images/stores/Kids/beforeKids7.JPG"
+import beforeKids8 from "../images/stores/Kids/beforeKids8.JPG"
 
 // العربي
 import Arabi1 from "../images/stores/Al-Arabi/Al-Arabi1.jpg"
@@ -34,11 +35,11 @@ import Arabi4 from "../images/stores/Al-Arabi/Al-Arabi4.png"
 import Arabi5 from "../images/stores/Al-Arabi/Al-Arabi5.png"
 
 // Bazid Pharmacy
-import Bazid1 from '../images/stores/Bazid-Pharmacy/Bazid1.jpg'
-import Bazid2 from '../images/stores/Bazid-Pharmacy/Bazid2.jpg'
-import Bazid3 from '../images/stores/Bazid-Pharmacy/Bazid3.jpg'
-import Bazid4 from '../images/stores/Bazid-Pharmacy/Bazid4.jpg'
-import Bazid5 from '../images/stores/Bazid-Pharmacy/Bazid5.jpg'
+import Bazid1 from '../images/stores/Bazid-Pharmacy/Bazid1.JPG'
+import Bazid2 from '../images/stores/Bazid-Pharmacy/Bazid2.JPG'
+import Bazid3 from '../images/stores/Bazid-Pharmacy/Bazid3.JPG'
+import Bazid4 from '../images/stores/Bazid-Pharmacy/Bazid4.JPG'
+import Bazid5 from '../images/stores/Bazid-Pharmacy/Bazid5.JPG'
 
 // Bingo
 import Bingo1 from '../images/stores/Bingo/Bingo1.png'
@@ -81,34 +82,34 @@ import beforehappy2 from '../images/stores/Happy-Joes/beforehappy2.jpg'
 import beforehappy3 from '../images/stores/Happy-Joes/beforehappy3.jpg'
 
 // Samaka 
-import Samaka1 from '../images/stores/Samaka-coffee/Samaka1.jpg'
-import Samaka2 from '../images/stores/Samaka-coffee/Samaka2.jpg'
-import Samaka3 from '../images/stores/Samaka-coffee/Samaka3.jpg'
-import Samaka4 from '../images/stores/Samaka-coffee/Samaka4.jpg'
+import Samaka1 from '../images/stores/Samaka-coffee/Samaka1.JPG'
+import Samaka2 from '../images/stores/Samaka-coffee/Samaka2.JPG'
+import Samaka3 from '../images/stores/Samaka-coffee/Samaka3.JPG'
+import Samaka4 from '../images/stores/Samaka-coffee/Samaka4.JPG'
 
 // Marsillia beach
-import beach1 from '../images/stores/Marsillia-beach/beach1.jpg'
-import beach2 from '../images/stores/Marsillia-beach/beach2.jpg'
+import beach1 from '../images/stores/Marsillia-beach/beach1.JPG'
+import beach2 from '../images/stores/Marsillia-beach/beach2.JPG'
 
 // Nevin Pharmacy
-import nevin1 from '../images/stores/Nevin-Pharmacy/nevin1.jpg'
-import nevin2 from '../images/stores/Nevin-Pharmacy/nevin2.jpg'
-import nevin3 from '../images/stores/Nevin-Pharmacy/nevin3.jpg'
-import nevin4 from '../images/stores/Nevin-Pharmacy/nevin4.jpg'
+import nevin1 from '../images/stores/Nevin-Pharmacy/nevin1.JPG'
+import nevin2 from '../images/stores/Nevin-Pharmacy/nevin2.JPG'
+import nevin3 from '../images/stores/Nevin-Pharmacy/nevin3.JPG'
+import nevin4 from '../images/stores/Nevin-Pharmacy/nevin4.JPG'
 
 // Hassan Ali Glases
-import ali1 from '../images/stores/Hassan-Ali-Glases/ali1.jpg'
+import ali1 from '../images/stores/Hassan-Ali-Glases/ali1.JPG'
 import ali2 from '../images/stores/Hassan-Ali-Glases/ali2.jpg'
 import ali3 from '../images/stores/Hassan-Ali-Glases/ali3.jpg'
 import ali4 from '../images/stores/Hassan-Ali-Glases/ali4.jpg'
 import ali5 from '../images/stores/Hassan-Ali-Glases/ali5.jpg'
 import ali6 from '../images/stores/Hassan-Ali-Glases/ali6.jpg'
-import ali7 from '../images/stores/Hassan-Ali-Glases/ali7.jpg'
+import ali7 from '../images/stores/Hassan-Ali-Glases/ali7.JPG'
 import ali8 from '../images/stores/Hassan-Ali-Glases/ali8.jpg'
-import ali9 from '../images/stores/Hassan-Ali-Glases/ali9.jpg'
-import beforehassan1 from '../images/stores/Hassan-Ali-Glases/beforehassan1.jpg'
-import beforehassan2 from '../images/stores/Hassan-Ali-Glases/beforehassan2.jpg'
-import beforehassan3 from '../images/stores/Hassan-Ali-Glases/beforehassan3.jpg'
+import ali9 from '../images/stores/Hassan-Ali-Glases/ali9.JPG'
+import beforehassan1 from '../images/stores/Hassan-Ali-Glases/beforehassan1.JPG'
+import beforehassan2 from '../images/stores/Hassan-Ali-Glases/beforehassan2.JPG'
+import beforehassan3 from '../images/stores/Hassan-Ali-Glases/beforehassan3.JPG'
 import beforehassan4 from '../images/stores/Hassan-Ali-Glases/beforehassan4.jpg'
 import beforehassan5 from '../images/stores/Hassan-Ali-Glases/beforehassan5.jpg'
 import beforehassan6 from '../images/stores/Hassan-Ali-Glases/beforehassan6.jpg'
@@ -116,71 +117,71 @@ import beforehassan6 from '../images/stores/Hassan-Ali-Glases/beforehassan6.jpg'
 // stores/some other soters
 import shop1 from '../images/stores/some-other-soters/shop1.jpg'
 import shop2 from '../images/stores/some-other-soters/shop2.jpg'
-import shop3 from '../images/stores/some-other-soters/shop3.jpg'
-import shop4 from '../images/stores/some-other-soters/shop4.jpg'
+import shop3 from '../images/stores/some-other-soters/shop3.JPG'
+import shop4 from '../images/stores/some-other-soters/shop4.JPG'
 import shop5 from '../images/stores/some-other-soters/shop5.png'
 import shop6 from '../images/stores/some-other-soters/shop6.jpg'
-import shop7 from '../images/stores/some-other-soters/shop7.jpg'
-import shop8 from '../images/stores/some-other-soters/shop8.jpg'
+import shop7 from '../images/stores/some-other-soters/shop7.JPG'
+import shop8 from '../images/stores/some-other-soters/shop8.JPG'
 
 // ----------------------------------------------------  Tbull Stand  -----------------------------------------
 
 // basic stand 
-import basicStand1 from '../images/Tbull-Stand/basic-stand/basicStand1.jpg'
-import basicStand2 from '../images/Tbull-Stand/basic-stand/basicStand2.jpg'
+import basicStand1 from '../images/Tbull-Stand/basic-stand/basicStand1.JPG'
+import basicStand2 from '../images/Tbull-Stand/basic-stand/basicStand2.JPG'
 import basicStand3 from '../images/Tbull-Stand/basic-stand/basicStand3.jpg'
-import basicStand4 from '../images/Tbull-Stand/basic-stand/basicStand4.jpg'
-import basicStand5 from '../images/Tbull-Stand/basic-stand/basicStand5.jpg'
+import basicStand4 from '../images/Tbull-Stand/basic-stand/basicStand4.JPG'
+import basicStand5 from '../images/Tbull-Stand/basic-stand/basicStand5.JPG'
 
 // T Stand
-import tStand1 from '../images/Tbull-Stand/tstand/tStand1.jpg'
-import tStand2 from '../images/Tbull-Stand/tstand/tStand2.jpg'
-import tStand3 from '../images/Tbull-Stand/tstand/tStand3.jpg'
+import tStand1 from '../images/Tbull-Stand/tstand/tStand1.JPG'
+import tStand2 from '../images/Tbull-Stand/tstand/tStand2.JPG'
+import tStand3 from '../images/Tbull-Stand/tstand/tStand3.JPG'
 import tStand4 from '../images/Tbull-Stand/tstand/tStand4.jpg'
 
 // ----------------------------------------------------  Charcaters light  --------------------------------------
 
 // char lighting
-import char1 from '../images/Charcaters/chars-light/char1.jpg'
-import char2 from '../images/Charcaters/chars-light/char2.jpg'
-import char3 from '../images/Charcaters/chars-light/char3.jpg'
+import char1 from '../images/Charcaters/chars-light/char1.JPG'
+import char2 from '../images/Charcaters/chars-light/char2.JPG'
+import char3 from '../images/Charcaters/chars-light/char3.JPG'
 import char4 from '../images/Charcaters/chars-light/char4.jpg'
-import char5 from '../images/Charcaters/chars-light/char5.jpg'
-import char6 from '../images/Charcaters/chars-light/char6.jpg'
-import char7 from '../images/Charcaters/chars-light/char7.png'
-import char8 from '../images/Charcaters/chars-light/char8.jpg'
-import char9 from '../images/Charcaters/chars-light/char9.jpg'
-import char10 from '../images/Charcaters/chars-light/char10.jpg'
-import char11 from '../images/Charcaters/chars-light/char11.jpg'
-import char12 from '../images/Charcaters/chars-light/char12.jpg'
+import char5 from '../images/Charcaters/chars-light/char5.JPG'
+import char6 from '../images/Charcaters/chars-light/char6.JPG'
+import char7 from '../images/Charcaters/chars-light/char7.PNG'
+import char8 from '../images/Charcaters/chars-light/char8.JPG'
+import char9 from '../images/Charcaters/chars-light/char9.JPG'
+import char10 from '../images/Charcaters/chars-light/char10.JPG'
+import char11 from '../images/Charcaters/chars-light/char11.JPG'
+import char12 from '../images/Charcaters/chars-light/char12.JPG'
 import char13 from '../images/Charcaters/chars-light/char13.jpg'
-import char14 from '../images/Charcaters/chars-light/char14.jpg'
+import char14 from '../images/Charcaters/chars-light/char14.JPG'
 import char15 from '../images/Charcaters/chars-light/char15.jpg'
 
 // word-lighting
 import word1 from '../images/Charcaters/words-light/word1.jpg'
-import word2 from '../images/Charcaters/words-light/word2.jpg'
+import word2 from '../images/Charcaters/words-light/word2.JPG'
 import word3 from '../images/Charcaters/words-light/word3.jpg'
-import word4 from '../images/Charcaters/words-light/word4.jpg'
-import word5 from '../images/Charcaters/words-light/word5.jpg'
+import word4 from '../images/Charcaters/words-light/word4.JPG'
+import word5 from '../images/Charcaters/words-light/word5.JPG'
 import word6 from '../images/Charcaters/words-light/word6.jpg'
 
 // -----------------------------------------------------  Houses  -----------------------------------------------
 
 //  apartment
 import apartment1 from '../images/houses/apartment/apartment1.jpg'
-import apartment2 from '../images/houses/apartment/apartment2.jpg'
+import apartment2 from '../images/houses/apartment/apartment2.JPG'
 import apartment3 from '../images/houses/apartment/apartment3.jpg'
 
 // villa
 import villa1 from '../images/houses/villa/villa1.jpg'
 import villa2 from '../images/houses/villa/villa2.jpg'
 import villa3 from '../images/houses/villa/villa3.jpg'
-import villa4 from '../images/houses/villa/villa4.jpg'
-import villa5 from '../images/houses/villa/villa5.jpg'
-import villa6 from '../images/houses/villa/villa6.jpg'
-import beforeVilla1 from '../images/houses/villa/beforeVilla1.jpg'
-import beforeVilla2 from '../images/houses/villa/beforeVilla2.jpg'
+import villa4 from '../images/houses/villa/villa4.JPG'
+import villa5 from '../images/houses/villa/villa5.JPG'
+import villa6 from '../images/houses/villa/villa6.JPG'
+import beforeVilla1 from '../images/houses/villa/beforeVilla1.JPG'
+import beforeVilla2 from '../images/houses/villa/beforeVilla2.JPG'
 
 
 
@@ -219,7 +220,7 @@ export const data = [
         },
         img: Kids3,
         images: [Kids1, Kids2, Kids3],
-        beforeImages: [beforeKids1 , beforeKids2 , beforeKids3 ,beforeKids4 , beforeKids5 ,beforeKids6 , beforeKids7],
+        beforeImages: [beforeKids1 , beforeKids2 , beforeKids3 ,beforeKids4 , beforeKids5 ,beforeKids6 , beforeKids7 ,beforeKids8],
         details: {
             en: 'Complete exterior branding design including main signage and lighting for Kids branches.',
             ar: 'تنفيذ كامل لتصميم الواجهة الخارجية بما يشمل اللافتات والإضاءة لفروع كيدز.'
