@@ -11,8 +11,8 @@ import Koshary6 from '../images/stores/Koshary-alkhediw/Koshary6.jpg'
 import Koshary7 from '../images/stores/Koshary-alkhediw/Koshary7.jpg'
 import Koshary8 from '../images/stores/Koshary-alkhediw/Koshary8.png'
 import Koshary9 from '../images/stores/Koshary-alkhediw/tahaKoshary.png'
-import beforeKoshary1 from '../images/stores/Koshary-alkhediw/beforeKoshary1.jpg'
-import beforeKoshary2 from '../images/stores/Koshary-alkhediw/beforeKoshary2.jpg'
+import beforeKoshary1 from '../images/stores/Koshary-alkhediw/beforeKoshary1.JPG'
+import beforeKoshary2 from '../images/stores/Koshary-alkhediw/beforeKoshary2.JPG'
 
 // kids
 import Kids1 from "../images/stores/Kids/Kids1.JPG"
