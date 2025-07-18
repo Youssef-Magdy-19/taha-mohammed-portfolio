@@ -3,7 +3,7 @@ import React from 'react'
 // @ts-ignore
 import logoLight from '/images/taha-logo.png'
 // @ts-ignore
-import logoDark from '/images/taha-white.png'
+import logoDark from '/images/taha-white.png';
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaWhatsapp, FaInstagram } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
