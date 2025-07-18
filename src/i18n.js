@@ -14,7 +14,7 @@ i18n
       en: { translation: translationEN },
       ar: { translation: translationAR },
     },
-    fallbackLng: 'en', // لو اللغة مش موجودة
+    fallbackLng: 'ar', // لو اللغة مش موجودة
     detection: {
       order: ['localStorage', 'navigator'], // منين يجيب اللغة
       caches: ['localStorage'], // فين يخزنها
