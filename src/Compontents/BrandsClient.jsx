@@ -1,17 +1,17 @@
 // @ts-ignore
 import React from 'react'
 // @ts-ignore
-import koshary from '/images/koshary.png'
+const koshary = '/images/koshary.png'
 // @ts-ignore
-import beach from '/images/beach.png'
+const beach = '/images/beach.png'
 // @ts-ignore
-import happy from '/images/happy.jpeg'
+const happy = '/images/happy.jpeg'
 // @ts-ignore
-import Bingo from '/images/bingo.jpg'
+const Bingo = '/images/bingo.jpg'
 // @ts-ignore
-import bazoka from '/images/bazoka.png'
+const bazoka = '/images/bazoka.png'
 // @ts-ignore
-import kids from '/images/kids1.jpg'
+const kids = '/images/kids1.jpg'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 
