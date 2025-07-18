@@ -1,117 +1,117 @@
 // ----------------------------- Shops -----------------------------
 
 // Koshary Al-Khedewy
-const Koshary1 = "/images/stores/Koshary-alkhediw/Koshary1.png";
-const Koshary2 = "/images/stores/Koshary-alkhediw/Koshary2.png";
-const Koshary3 = "/images/stores/Koshary-alkhediw/Koshary3.png";
-const Koshary4 = "/images/stores/Koshary-alkhediw/Koshary4.jpg";
-const Koshary5 = "/images/stores/Koshary-alkhediw/Koshary5.jpg";
-const Koshary6 = "/images/stores/Koshary-alkhediw/Koshary6.jpg";
-const Koshary7 = "/images/stores/Koshary-alkhediw/Koshary7.jpg";
-const Koshary8 = "/images/stores/Koshary-alkhediw/Koshary8.png";
-const Koshary9 = "/images/stores/Koshary-alkhediw/tahaKoshary.png";
-const beforeKoshary1 = "/images/stores/Koshary-alkhediw/beforeKoshary1.jpg";
-const beforeKoshary2 = "/images/stores/Koshary-alkhediw/beforeKoshary2.jpg";
+const Koshary1 = "/images/stores/koshary-alkhediw/koshary1.png";
+const Koshary2 = "/images/stores/koshary-alkhediw/koshary2.png";
+const Koshary3 = "/images/stores/koshary-alkhediw/koshary3.png";
+const Koshary4 = "/images/stores/koshary-alkhediw/koshary4.jpg";
+const Koshary5 = "/images/stores/koshary-alkhediw/koshary5.jpg";
+const Koshary6 = "/images/stores/koshary-alkhediw/koshary6.jpg";
+const Koshary7 = "/images/stores/koshary-alkhediw/koshary7.jpg";
+const Koshary8 = "/images/stores/koshary-alkhediw/koshary8.png";
+const Koshary9 = "/images/stores/koshary-alkhediw/tahakoshary.png";
+const beforeKoshary1 = "/images/stores/koshary-alkhediw/beforekoshary1.jpg";
+const beforeKoshary2 = "/images/stores/koshary-alkhediw/beforekoshary2.jpg";
 
 // Kids
-const Kids1 = "/images/stores/Kids/Kids1.jpg";
-const Kids2 = "/images/stores/Kids/Kids2.jpg";
-const Kids3 = "/images/stores/Kids/Kids3.png";
-const beforeKids1 = "/images/stores/Kids/beforeKids1.jpg";
-const beforeKids2 = "/images/stores/Kids/beforeKids2.jpg";
-const beforeKids3 = "/images/stores/Kids/beforeKids3.jpg";
-const beforeKids4 = "/images/stores/Kids/beforeKids4.jpg";
-const beforeKids5 = "/images/stores/Kids/beforeKids5.jpg";
-const beforeKids6 = "/images/stores/Kids/beforeKids6.png";
-const beforeKids7 = "/images/stores/Kids/beforeKids7.jpg";
-const beforeKids8 = "/images/stores/Kids/beforeKids8.jpg";
+const Kids1 = "/images/stores/kids/kids1.jpg";
+const Kids2 = "/images/stores/kids/kids2.jpg";
+const Kids3 = "/images/stores/kids/kids3.png";
+const beforeKids1 = "/images/stores/kids/beforekids1.jpg";
+const beforeKids2 = "/images/stores/kids/beforekids2.jpg";
+const beforeKids3 = "/images/stores/kids/beforekids3.jpg";
+const beforeKids4 = "/images/stores/kids/beforekids4.jpg";
+const beforeKids5 = "/images/stores/kids/beforekids5.jpg";
+const beforeKids6 = "/images/stores/kids/beforekids6.png";
+const beforeKids7 = "/images/stores/kids/beforekids7.jpg";
+const beforeKids8 = "/images/stores/kids/beforekids8.jpg";
 
 // Al-Arabi
-const Arabi1 = "/images/stores/Al-Arabi/Al-Arabi1.jpg";
-const Arabi2 = "/images/stores/Al-Arabi/Al-Arabi2.jpg";
-const Arabi3 = "/images/stores/Al-Arabi/Al-Arabi3.png";
-const Arabi4 = "/images/stores/Al-Arabi/Al-Arabi4.png";
-const Arabi5 = "/images/stores/Al-Arabi/Al-Arabi5.png";
+const Arabi1 = "/images/stores/al-arabi/al-arabi1.jpg";
+const Arabi2 = "/images/stores/al-arabi/al-arabi2.jpg";
+const Arabi3 = "/images/stores/al-arabi/al-arabi3.png";
+const Arabi4 = "/images/stores/al-arabi/al-arabi4.png";
+const Arabi5 = "/images/stores/al-arabi/al-arabi5.png";
 
 // Bazid Pharmacy
-const Bazid1 = "/images/stores/Bazid-Pharmacy/Bazid1.jpg";
-const Bazid2 = "/images/stores/Bazid-Pharmacy/Bazid2.jpg";
-const Bazid3 = "/images/stores/Bazid-Pharmacy/Bazid3.jpg";
-const Bazid4 = "/images/stores/Bazid-Pharmacy/Bazid4.jpg";
-const Bazid5 = "/images/stores/Bazid-Pharmacy/Bazid5.jpg";
+const Bazid1 = "/images/stores/bazid-pharmacy/bazid1.jpg";
+const Bazid2 = "/images/stores/bazid-pharmacy/bazid2.jpg";
+const Bazid3 = "/images/stores/bazid-pharmacy/bazid3.jpg";
+const Bazid4 = "/images/stores/bazid-pharmacy/bazid4.jpg";
+const Bazid5 = "/images/stores/bazid-pharmacy/bazid5.jpg";
 
 // Bingo
-const Bingo1 = "/images/stores/Bingo/Bingo1.png";
-const Bingo2 = "/images/stores/Bingo/Bingo2.png";
-const Bingo3 = "/images/stores/Bingo/Bingo3.png";
-const Bingo4 = "/images/stores/Bingo/Bingo4.png";
-const beforeBingo1 = "/images/stores/Bingo/beforeBingo1.jpg";
-const beforeBingo2 = "/images/stores/Bingo/beforeBingo2.jpg";
+const Bingo1 = "/images/stores/bingo/bingo1.png";
+const Bingo2 = "/images/stores/bingo/bingo2.png";
+const Bingo3 = "/images/stores/bingo/bingo3.png";
+const Bingo4 = "/images/stores/bingo/bingo4.png";
+const beforeBingo1 = "/images/stores/bingo/beforebingo1.jpg";
+const beforeBingo2 = "/images/stores/bingo/beforebingo2.jpg";
 
 // Dawlya
-const Dawlya1 = "/images/stores/Dawlya/Dawlya1.jpg";
-const Dawlya2 = "/images/stores/Dawlya/Dawlya2.png";
-const Dawlya3 = "/images/stores/Dawlya/Dawlya3.png";
-const Dawlya4 = "/images/stores/Dawlya/Dawlya4.png";
-const Dawlya5 = "/images/stores/Dawlya/Dawlya5.png";
-const Dawlya6 = "/images/stores/Dawlya/Dawlya6.png";
-const Dawlya7 = "/images/stores/Dawlya/Dawlya7.png";
-const Dawlya8 = "/images/stores/Dawlya/Dawlya8.png";
-const Dawlya9 = "/images/stores/Dawlya/Dawlya9.png";
+const Dawlya1 = "/images/stores/dawlya/dawlya1.jpg";
+const Dawlya2 = "/images/stores/dawlya/dawlya2.png";
+const Dawlya3 = "/images/stores/dawlya/dawlya3.png";
+const Dawlya4 = "/images/stores/dawlya/dawlya4.png";
+const Dawlya5 = "/images/stores/dawlya/dawlya5.png";
+const Dawlya6 = "/images/stores/dawlya/dawlya6.png";
+const Dawlya7 = "/images/stores/dawlya/dawlya7.png";
+const Dawlya8 = "/images/stores/dawlya/dawlya8.png";
+const Dawlya9 = "/images/stores/dawlya/dawlya9.png";
 
 // Falafels-Xpress
-const xpress1 = "/images/stores/Falafels-Xpress/xpress1.jpg";
-const xpress2 = "/images/stores/Falafels-Xpress/xpress2.png";
-const xpress3 = "/images/stores/Falafels-Xpress/xpress3.png";
+const xpress1 = "/images/stores/falafels-xpress/xpress1.jpg";
+const xpress2 = "/images/stores/falafels-xpress/xpress2.png";
+const xpress3 = "/images/stores/falafels-xpress/xpress3.png";
 
 // Happy-Joes
-const happy1 = "/images/stores/Happy-Joes/happy1.jpg";
-const happy2 = "/images/stores/Happy-Joes/happy2.jpg";
-const happy3 = "/images/stores/Happy-Joes/happy3.jpg";
-const happy4 = "/images/stores/Happy-Joes/happy4.jpg";
-const happy5 = "/images/stores/Happy-Joes/happy5.jpg";
-const happy6 = "/images/stores/Happy-Joes/happy6.png";
-const happy7 = "/images/stores/Happy-Joes/happy7.png";
-const happy8 = "/images/stores/Happy-Joes/happy8.png";
-const happy9 = "/images/stores/Happy-Joes/happy9.png";
-const happy10 = "/images/stores/Happy-Joes/happy10.png";
-const happy11 = "/images/stores/Happy-Joes/happy11.png";
-const beforehappy1 = "/images/stores/Happy-Joes/beforehappy1.jpg";
-const beforehappy2 = "/images/stores/Happy-Joes/beforehappy2.jpg";
-const beforehappy3 = "/images/stores/Happy-Joes/beforehappy3.jpg";
+const happy1 = "/images/stores/happy-joes/happy1.jpg";
+const happy2 = "/images/stores/happy-joes/happy2.jpg";
+const happy3 = "/images/stores/happy-joes/happy3.jpg";
+const happy4 = "/images/stores/happy-joes/happy4.jpg";
+const happy5 = "/images/stores/happy-joes/happy5.jpg";
+const happy6 = "/images/stores/happy-joes/happy6.png";
+const happy7 = "/images/stores/happy-joes/happy7.png";
+const happy8 = "/images/stores/happy-joes/happy8.png";
+const happy9 = "/images/stores/happy-joes/happy9.png";
+const happy10 = "/images/stores/happy-joes/happy10.png";
+const happy11 = "/images/stores/happy-joes/happy11.png";
+const beforehappy1 = "/images/stores/happy-joes/beforehappy1.jpg";
+const beforehappy2 = "/images/stores/happy-joes/beforehappy2.jpg";
+const beforehappy3 = "/images/stores/happy-joes/beforehappy3.jpg";
 
 // Samaka
-const Samaka1 = "/images/stores/Samaka-coffee/samaka1.jpg";
-const Samaka2 = "/images/stores/Samaka-coffee/samaka2.jpg";
-const Samaka3 = "/images/stores/Samaka-coffee/samaka3.jpg";
-const Samaka4 = "/images/stores/Samaka-coffee/samaka4.jpg";
+const Samaka1 = "/images/stores/samaka-coffee/samaka1.jpg";
+const Samaka2 = "/images/stores/samaka-coffee/samaka2.jpg";
+const Samaka3 = "/images/stores/samaka-coffee/samaka3.jpg";
+const Samaka4 = "/images/stores/samaka-coffee/samaka4.jpg";
 
 // Marsillia Beach
-const beach1 = "/images/stores/Marsillia-beach/beach1.jpg";
-const beach2 = "/images/stores/Marsillia-beach/beach2.jpg";
+const beach1 = "/images/stores/marsillia-beach/beach1.jpg";
+const beach2 = "/images/stores/marsillia-beach/beach2.jpg";
 
-// Nevin Pharmacy
-const nevin1 = "/images/stores/Nevin-Pharmacy/nevin1.jpg";
-const nevin2 = "/images/stores/Nevin-Pharmacy/nevin2.jpg";
-const nevin3 = "/images/stores/Nevin-Pharmacy/nevin3.jpg";
-const nevin4 = "/images/stores/Nevin-Pharmacy/nevin4.jpg";
+// Nevin pharmacy
+const nevin1 = "/images/stores/nevin-pharmacy/nevin1.jpg";
+const nevin2 = "/images/stores/nevin-pharmacy/nevin2.jpg";
+const nevin3 = "/images/stores/nevin-pharmacy/nevin3.jpg";
+const nevin4 = "/images/stores/nevin-pharmacy/nevin4.jpg";
 
 // Hassan Ali Glasses
-const ali1 = "/images/stores/Hassan-Ali-Glases/ali1.jpg";
-const ali2 = "/images/stores/Hassan-Ali-Glases/ali2.jpg";
-const ali3 = "/images/stores/Hassan-Ali-Glases/ali3.jpg";
-const ali4 = "/images/stores/Hassan-Ali-Glases/ali4.jpg";
-const ali5 = "/images/stores/Hassan-Ali-Glases/ali5.jpg";
-const ali6 = "/images/stores/Hassan-Ali-Glases/ali6.jpg";
-const ali7 = "/images/stores/Hassan-Ali-Glases/ali7.jpg";
-const ali8 = "/images/stores/Hassan-Ali-Glases/ali8.jpg";
-const ali9 = "/images/stores/Hassan-Ali-Glases/ali9.jpg";
-const beforehassan1 = "/images/stores/Hassan-Ali-Glases/beforehassan1.jpg";
-const beforehassan2 = "/images/stores/Hassan-Ali-Glases/beforehassan2.jpg";
-const beforehassan3 = "/images/stores/Hassan-Ali-Glases/beforehassan3.jpg";
-const beforehassan4 = "/images/stores/Hassan-Ali-Glases/beforehassan4.jpg";
-const beforehassan5 = "/images/stores/Hassan-Ali-Glases/beforehassan5.jpg";
-const beforehassan6 = "/images/stores/Hassan-Ali-Glases/beforehassan6.jpg";
+const ali1 = "/images/stores/hassan-ali-glases/ali1.jpg";
+const ali2 = "/images/stores/hassan-ali-glases/ali2.jpg";
+const ali3 = "/images/stores/hassan-ali-glases/ali3.jpg";
+const ali4 = "/images/stores/hassan-ali-glases/ali4.jpg";
+const ali5 = "/images/stores/hassan-ali-glases/ali5.jpg";
+const ali6 = "/images/stores/hassan-ali-glases/ali6.jpg";
+const ali7 = "/images/stores/hassan-ali-glases/ali7.jpg";
+const ali8 = "/images/stores/hassan-ali-glases/ali8.jpg";
+const ali9 = "/images/stores/hassan-ali-glases/ali9.jpg";
+const beforehassan1 = "/images/stores/hassan-ali-glases/beforehassan1.jpg";
+const beforehassan2 = "/images/stores/hassan-ali-glases/beforehassan2.jpg";
+const beforehassan3 = "/images/stores/hassan-ali-glases/beforehassan3.jpg";
+const beforehassan4 = "/images/stores/hassan-ali-glases/beforehassan4.jpg";
+const beforehassan5 = "/images/stores/hassan-ali-glases/beforehassan5.jpg";
+const beforehassan6 = "/images/stores/hassan-ali-glases/beforehassan6.jpg";
 
 // Some Other Stores
 const shop1 = "/images/stores/some-other-soters/shop1.jpg";
@@ -177,8 +177,8 @@ const villa2 = "/images/houses/villa/villa2.jpg";
 const villa3 = "/images/houses/villa/villa3.jpg";
 const villa4 = "/images/houses/villa/villa4.jpg";
 const villa5 = "/images/houses/villa/villa5.jpg";
-const beforeVilla1 = "/images/houses/villa/beforeVilla1.jpg";
-const beforeVilla2 = "/images/houses/villa/beforeVilla2.jpg";
+const beforeVilla1 = "/images/houses/villa/beforevilla1.jpg";
+const beforeVilla2 = "/images/houses/villa/beforevilla2.jpg";
 
 export const data = [
     {

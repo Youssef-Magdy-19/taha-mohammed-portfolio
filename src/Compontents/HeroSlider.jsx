@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useTranslation } from "react-i18next"
 import { ArrowLeft, ArrowRight } from "lucide-react"
 // @ts-ignore
-import Koshary from '/images/stores/Koshary-alkhediw/Koshary5.jpg'
+import Koshary from '/images/stores/koshary-alkhediw/koshary5.jpg'
 // @ts-ignore
 import char from '/images/Charcaters/chars-light/char8.jpg'
 // @ts-ignore

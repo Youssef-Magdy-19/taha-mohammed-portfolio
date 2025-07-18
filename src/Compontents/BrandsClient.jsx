@@ -7,11 +7,11 @@ import beach from '/images/beach.png'
 // @ts-ignore
 import happy from '/images/happy.jpeg'
 // @ts-ignore
-import Bingo from '/images/Bingo.jpg'
+import Bingo from '/images/bingo.jpg'
 // @ts-ignore
 import bazoka from '/images/bazoka.png'
 // @ts-ignore
-import kids from '/images/Kids1.jpg'
+import kids from '/images/kids1.jpg'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 
