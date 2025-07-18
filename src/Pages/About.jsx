@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { CheckCircle, Award, PhoneCall } from "lucide-react";
 // @ts-ignore
-import whyChooseUs from "/images/whychoose.jpeg"
+const whyChooseUs = "/images/whychoose.jpeg"
 import useWindowScrollToTop from "../hooks/useWindowScrollToTop";
 import { HashLink } from "react-router-hash-link";
 import { useLoading } from "../context/LoadingContext";
