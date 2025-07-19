@@ -53,8 +53,8 @@ const Navbar = ({currentMode , setCurrentMode}) => {
                 <div className="container flex items-center justify-between">
                     <button className='block md:hidden p-[7px] cursor-pointer' onClick={() => setIsOpen(true)}><Menu className="w-6 h-6 text-gray-500" /></button>
                     {currentMode == 'light' ?
-                        <Link to='/' ><img src={logoLight} className='transition-all' alt="" width={50} height={50} /></Link> :
-                        <Link to='/' ><img src={logoDark} className='transition-all' width={50} height={50} /> </Link>
+                        <Link to='/' ><img loading='lazy' src={logoLight} className='transition-all' alt="" width={50} height={50} /></Link> :
+                        <Link to='/' ><img loading='lazy' src={logoDark} className='transition-all' width={50} height={50} /> </Link>
                     }
                     <nav className='hidden md:block'>
                         <ul className='flex items-center gap-[2rem]'>

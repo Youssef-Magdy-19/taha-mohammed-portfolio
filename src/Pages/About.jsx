@@ -88,6 +88,7 @@ const AboutPage = () => {
           >
             <img
               src={whyChooseUs}
+              loading='lazy'
               alt="Why Choose Us"
               className="rounded-xl shadow-lg w-full h-[220px]"
             />

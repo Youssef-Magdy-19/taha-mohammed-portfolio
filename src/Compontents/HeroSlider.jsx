@@ -58,7 +58,7 @@ const HeroSlider = () => {
   }
 
   return (
-    <section className="relative w-full h-[calc(75vh-60px)] md:h-[calc(60vh-60px)] lg:h-[calc(70vh-60px)] overflow-hidden">
+    <section className="relative w-full h-[calc(75vh-60px)] md:h-[calc(70vh-60px)] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}

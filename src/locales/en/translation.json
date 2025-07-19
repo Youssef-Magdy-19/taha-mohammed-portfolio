@@ -123,6 +123,10 @@
     "ctaTitle": "Want a Project Like This?",
     "ctaDesc": "Let’s work together to bring your vision to life. Contact us now!",
     "ctaButton": "Contact Us"
+  },
+  "PageNotFound" : {
+    "content" : "Page Not Found" ,
+    "btn" : "Back To Home"
   }
 
 }

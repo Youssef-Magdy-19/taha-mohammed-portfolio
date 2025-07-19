@@ -77,6 +77,7 @@ const Servies = ({ currentMode }) => {
 
                         >
                             <img
+                                loading='lazy'
                                 src={currentMode === "dark" ? service.image[1] : service.image[0]}
                                 className="w-30 h-30 md:w-40 md:h-40 lg:w-50 lg:h-50"
                                 alt={t(service.title)}

@@ -8,6 +8,7 @@ import { useEffect, useState } from "react"
 import ProjectDetails from "./Pages/ProjectDetails"
 import { LoadingProvider } from "./context/LoadingContext";
 import GlobalLoader from "./Compontents/GolbalLoader"
+import PageNotFound from "./Pages/PageNotFound"
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/about" element={<About />} />
+          <Route path="/*" element={<PageNotFound />} />
         </Routes>
         <GlobalLoader />
         <Footer currentMode={currentMode} />

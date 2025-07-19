@@ -39,7 +39,7 @@ const BrandsClient = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            <img src={logo.img} className='w-full rounded-lg' />
+            <img src={logo.img} loading='lazy' className='w-full rounded-lg' />
           </motion.div>
         ))}
       </div>

@@ -170,6 +170,7 @@ const ProjectDetails = () => {
           >
             <div className="relative max-w-5xl w-full" style={{ padding: '20px' }}>
               <img
+                loading='lazy'
                 src={images[activeImage]}
                 alt="Zoom"
                 className="w-full max-h-[90vh] object-contain rounded-lg"

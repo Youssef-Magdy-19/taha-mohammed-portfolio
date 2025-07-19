@@ -16,7 +16,7 @@ const CardProject = ({ img, title, desc, id , animation }) => {
             viewport={{ once: true, amount: 0.3 }}
             className='card flex flex-col  gap-[.5rem] border border-gray-300 rounded-[10px] shadow-md'
         >
-            <img src={img} className='w-full h-[180px]' style={{ borderRadius: '10px 10px 0 0' }} />
+            <img loading='lazy' src={img} className='w-full h-[180px]' style={{ borderRadius: '10px 10px 0 0' }} />
             <div className="body-card flex flex-col justify-between" style={{ padding: '5px 15px 15px 10px', height:'calc(100% - 190px)' }}>
                 <h4 className='font-bold text-xl '>{i18n.language == 'ar' ? title.ar : title.en}</h4>
                 <p className='text-sm md:text-md text-gray-500' style={{margin:'10px 0'}}>{i18n.language == 'ar' ? desc.ar : desc.en}</p>
