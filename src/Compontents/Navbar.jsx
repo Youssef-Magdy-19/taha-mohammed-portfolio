@@ -81,7 +81,7 @@ const Navbar = ({currentMode , setCurrentMode}) => {
                             </li>
                             <li>
                                 <HashLink smooth to="/#contact"
-                                    className={`${location.pathname == '#contact' ? '`active text-blue-500 font-semibold' : 'text-gray-600 '} hover:text-blue-500 transition-all`}
+                                    className={`${location.pathname == '/#contact' ? '`active text-blue-500 font-semibold' : 'text-gray-600 '} hover:text-blue-500 transition-all`}
                                 >
                                     {t('contact')}
                                 </HashLink>
@@ -154,17 +154,17 @@ const Navbar = ({currentMode , setCurrentMode}) => {
                             className={`cursor-pointer hover:bg-gray-100 overflow-hidden ${location.pathname == '/about' ? 'resactive text-blue-500 font-semibold' : 'text-gray-600'}  hover:text-blue-600 transition-all`}
                         >
                             <Link onClick={() => setIsOpen(false)}
-                                style={{padding:`${i18n.language == 'ar' ? '0 0 0 205px' : '0 180px 0 0 '}`}}
+                                style={{padding:`${i18n.language == 'ar' ? '0 0 0 190px' : '0 180px 0 0 '}`}}
                                 to="/about"
                             >
                                 {t('about')}
                             </Link>
                         </li>
                         <li style={{ padding: '12.5px' }}
-                            className={`cursor-pointer hover:bg-gray-100 overflow-hidden ${location.pathname == '#contact' ? 'resactive text-blue-500 font-semibold' : 'text-gray-600'}  hover:text-blue-500 transition-all`}
+                            className={`cursor-pointer hover:bg-gray-100 overflow-hidden ${location.pathname == '/#contact' ? 'resactive text-blue-500 font-semibold' : 'text-gray-600'}  hover:text-blue-500 transition-all`}
                         >
                             <HashLink smooth to="/#contact" onClick={() => setIsOpen(false)}
-                                style={{padding:`${i18n.language == 'ar' ? '0 0 0 183px' : '0 175px 0 0 '}`}}
+                                style={{padding:`${i18n.language == 'ar' ? '0 0 0 170px' : '0 175px 0 0 '}`}}
                             >
                                 {t('contact')}
                             </HashLink>

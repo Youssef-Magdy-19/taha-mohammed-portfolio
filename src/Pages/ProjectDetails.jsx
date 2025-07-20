@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight, Maximize2, X } from "lucide-react";
+import {  X } from "lucide-react";
 import { data } from "../data/data"; // ملف الداتا
 import { useTranslation } from "react-i18next";
 import AfterSlider from "../Compontents/AfterSlider";

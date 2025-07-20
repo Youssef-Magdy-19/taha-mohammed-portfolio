@@ -30,7 +30,7 @@ const LanguageSwitcher = () => {
         return () => document.removeEventListener('mousedown', handler)
     }, [])
 
-    const currentLang = languages.find((lang) => lang.code === i18n.language) || languages[0]
+    const currentLang = languages.find((lang) => lang.code === i18n.language) || languages[1]
 
     const handleLanguageChange = (lang) => {
         // أضف كلاس لتعطيل الترانزيشن
