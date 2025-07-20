@@ -30,7 +30,7 @@ const LanguageSwitcher = () => {
         return () => document.removeEventListener('mousedown', handler)
     }, [])
 
-    const currentLang = languages.find((lang) => lang.code === i18n.language)
+    const currentLang = languages.find((lang) => lang.code === i18n.language) || languages[0]
 
     const handleLanguageChange = (lang) => {
         // أضف كلاس لتعطيل الترانزيشن
@@ -53,7 +53,11 @@ const LanguageSwitcher = () => {
                 style={{ padding: '5px 12px' }}
                 className="btn-lang cursor-pointer flex items-center gap-2 bg-gray-200  text-gray-800 border border-gray-400 rounded-md shadow-sm hover:bg-gray-300 transition"
             >
-                <img src={currentLang.flag} alt="flag" className="w-5 h-5 rounded-full" />
+                { currentLang && currentLang.flag  && (
+                    <img src={currentLang.flag} alt="flag" className="w-5 h-5 rounded-full" />
+                    )
+                }
+               
                 <span>{currentLang.label}</span>
                 <span className="text-xs">▼</span>
             </div>
